@@ -1,0 +1,177 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    min-height: 50px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.menu_link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    min-height: 799px;
+    background: url('../img/uber_bg.png')center center/cover no-repeat;
+}
+
+.sub_subheader {
+    min-height: 87px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    padding: 19px 0 19px 0;
+}
+
+.logo {
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.callus {
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.call {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 12px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 67px;
+}
+
+.promo_subheader {
+    font-weight: 900;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.promo_descrp {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.send {
+    width: 259px;
+    height: 63px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reason {
+    min-height: 767px;
+    padding: 20px 0 50px 0;
+}
+
+.reason_btn {
+    width: 115px;
+    height: 27px;
+    display: block;
+    margin: 0 auto;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.reason_title {
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+}
+
+.reason_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reason_round {
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    background: #1EACC7;
+
+}
+
+
+.reason_t {
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.reason_txt {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(32, 32, 32, 1);
+}
+
+.reason_descrp {
+    width: 343px;
+}
